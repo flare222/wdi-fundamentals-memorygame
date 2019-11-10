@@ -56,7 +56,26 @@ main {
 }
 
 img {
-	margin: 40px 8px 0px;
+	margin: 40px 8px 40px 0px;
+}
+
+button {
+color: #494949 !important;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: bold;
+background: #ffffff;
+padding: 20px;
+border: 4px solid #494949 !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+}
+
+button:hover {
+color: #ffffff !important;
+background: #F15B31;
+border-color: #F15B31 !important;
+transition: all 0.4s ease 0s;
 }
 
 footer {
